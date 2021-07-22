@@ -1,0 +1,19 @@
+.fact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Vollkorn', serif;
+}
+.fact p{
+    color: rgb(70, 0, 201);
+    margin: 6px;
+
+}
+.fact .title{
+
+    color: black;
+}

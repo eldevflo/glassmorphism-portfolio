@@ -1,0 +1,19 @@
+.content{
+    background: #bbebf5;
+    box-shadow: 0 8px 32px 0 rgba(154, 196, 196, 0.089);
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px );
+     border-top-left-radius: 10% 10%;
+     border-top-right-radius: 10% 10%;
+    
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+@media screen and (max-width:450px){
+    .content{
+        border-top-left-radius: 7% 7%;
+     border-top-right-radius: 7% 7%;
+    }
+}

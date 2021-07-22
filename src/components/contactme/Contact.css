@@ -1,0 +1,51 @@
+.contact-container{
+    background: rgba(56, 56, 56, 0);
+    box-shadow: 0 32px 32px 0 rgba(15, 211, 211, 0.37);
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    margin-top: 30px;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-family: 'Vollkorn', serif;
+    font-size: 21px;
+
+    
+
+}
+
+
+.contact-container h2{
+    text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.contact img{
+    width: 3rem;
+    margin: 30px 16px;
+
+    cursor: pointer;
+
+    
+}
+.mobile-text{
+    visibility: hidden;
+}
+@media screen and (max-width: 950px){
+    .mobile-text{
+        visibility: visible;
+        text-align: center;
+        font-size: 15px;
+        color: rgba(238, 30, 65, 0.897)
+    }
+    .contact img {
+        width: 2rem;
+    }
+   
+}

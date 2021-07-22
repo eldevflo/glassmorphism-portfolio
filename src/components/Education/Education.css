@@ -1,0 +1,42 @@
+.education-wrapper{
+
+    background: rgba(56, 56, 56, 0);
+    box-shadow: 0 32px 32px 0 rgba(15, 211, 211, 0.37);
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    margin-top: 30px;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-family: 'Vollkorn', serif;
+    font-size: 21px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+
+.education-wrapper h1{
+    
+    text-align: center;
+    margin: 20px;
+}
+
+.learning-img{
+    width: 500px;    
+    -webkit-box-reflect: below 1px linear-gradient(transparent , rgba(255,255,255 , 0.1));
+    
+}
+@media screen and (max-width:450px){
+    .learning-img{
+        width: 300px
+    }
+}
