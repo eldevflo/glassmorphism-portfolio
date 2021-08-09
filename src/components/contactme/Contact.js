@@ -14,34 +14,26 @@ function Contact() {
         <div className="contact-container">
             <h2>How to contact me</h2>
 
-            <div className="contact">    
-                <CustomizedTooltips >
-                    <img src={gmail}  alt="gmail"  onClick={(e) => {navigator.clipboard.writeText('f.zamanipour@gmail.com')}
+            <div className="contact">  
+            <a href="mailto:f.zamanipour@gmail.com">
+                <img src={gmail}  alt="gmail"/> 
+            </a>  
 
-                    } />
-                </CustomizedTooltips>
-
-                <CustomizedTooltips  >
+                   
+            
                 <img src={Octocat}  alt="git" 
-                    onClick={(e) => {navigator.clipboard.writeText('https://github.com/fzmnpr')}}
+                    onClick={(e) => {window.open('https://github.com/fzmnpr')}}
                 />
-                </CustomizedTooltips>
 
-                <CustomizedTooltips >
                 <img src={instagram}  alt="instagram" 
-                     onClick={(e) => {navigator.clipboard.writeText('https://www.instagram.com/fzmnpr/')}}
+                     onClick={(e) => {window.open('https://www.instagram.com/fzmnpr/')}}
                 />
-                </CustomizedTooltips>
 
-                <CustomizedTooltips >
                 <img src={telegram}  alt="telegram"  
-                 onClick={(e) => {navigator.clipboard.writeText('@fzmnpr')}}
+                 onClick={(e) => {window.open('https://t.me/fzmnpr')}}
 
                 />
-                </CustomizedTooltips>
             </div>
-                        <p className="mobile-text">touch the icon to copy the link</p>
-
         </div>
         </Element>
     )

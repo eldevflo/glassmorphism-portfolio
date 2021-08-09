@@ -25,6 +25,7 @@
 }
 .btn-section{
     display: flex;
+    
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -153,4 +154,10 @@
   100% {
     box-shadow: 10014px 15px 0 0 rgba(152, 128, 255, 0);
   }
+}
+@media screen and (max-width: 650px){
+    .btn-section{
+      flex-direction: column;
+    }
+   
 }
