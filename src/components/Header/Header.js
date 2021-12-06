@@ -8,10 +8,10 @@ function Header() {
   const onCopyHandler=()=>{
     navigator.clipboard.writeText('+989909345731');
     setCopy(true);
-
+    setTimeout(()=>{
+      setCopy(false);
+    } , 5000)
   }
-
-
     return (
         <div className='header'>
             <div  className="snippet" data-title=".dot-falling">
@@ -24,9 +24,6 @@ function Header() {
              </div>
              <h2 className="full-name">I'm Fatemeh Zamanipour</h2>
             <p>Front-End Developer</p>
-
-
-
             <div className='btn-section'>
                 <button 
                 onClick={() =>
@@ -43,10 +40,7 @@ function Header() {
             <div className='img-section'>
                 <img src={Jobriver} alt='header-img' className="header-img"/>
             </div>
-           
         </div>
-        
-        
     )
 }
 

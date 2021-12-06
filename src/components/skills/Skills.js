@@ -22,11 +22,11 @@ function Skills() {
                 </div>
                 <div className="js">
                  <img src={javascript} alt="js" />
-                 <ProgressBar percentage={50} /> 
+                 <ProgressBar percentage={70} /> 
                 </div>
                 <div className="react">
                  <img src={react} alt="react" /> 
-                 <ProgressBar percentage={40} />
+                 <ProgressBar percentage={70} />
                 </div>
             </div>
         </div>
